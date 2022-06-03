@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Library</title>
+</head>
+<body>
+    <div class="container">
+        <!-- tooltip -->
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Earum unde corrupti libero voluptatum
+            <span class="tooltip" data-message = 'I am a tooltip!'>
+                adipisicing elit.
+            </span>
+            sed ea est dolore totam, 
+            in perspiciatis a at ratione placeat doloremque voluptate dolores, 
+            repudiandae, magnam quidem!
+        </p>
+
+        <h2>Services</h2>
+        <!-- dropdown -->
+        <div class="dropdown">
+            <div class="trigger">Awesome shoes man</div>
+            <div class="content">
+                <p>
+                    sed ea est dolore totam, Lorem ipsum dolor sit amet.
+                    in perspiciatis a at ratione placeat doloremque voluptate dolores, 
+                    repudiandae, magnam quidem! Lorem ipsum dolor sit amet consectetur.
+                </p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="trigger">Cool video bro</div>
+            <div class="content">
+                <p>
+                    sed ea est dolore totam, Lorem ipsum dolor sit amet.
+                    in perspiciatis a at ratione placeat doloremque voluptate dolores, 
+                    repudiandae, magnam quidem! Lorem ipsum dolor sit amet consectetur.
+                </p>
+            </div>
+        </div>
+        <h2>more Info</h2>
+        <!-- tabs -->
+        <div class="tabs">
+            <ul>
+                <li class="trigger active" data-target = "#about">About</li>
+                <li class="trigger active" data-target = "#delivery">Delivery Info</li>
+                <li class="trigger active" data-target = "#returns">Returns info</li>
+            </ul>
+            <div id="about" class="content active">
+                <h3>about</h3>
+                <p>
+                    About!! Lorem ipsum dolor sit amet consectetur, a
+                    dipisicing elit. Adipisci cumque minima repellendus 
+                    velit! Cupiditate, repellendus voluptates. Earum rem omnis tenetur. 
+                    Nesciunt autem odio dolor ut!
+                </p>
+            </div>
+            <div id="delivery" class="content">
+                <h3>delivery</h3>
+                <p>
+                    Deliver!! Lorem ipsum dolor sit amet consectetur, a
+                    dipisicing elit. Adipisci cumque minima repellendus 
+                    velit! Cupiditate, repellendus voluptates. Earum rem omnis tenetur. 
+                    Nesciunt autem odio dolor ut!
+                </p>
+            </div>
+            <div id="returns" class="content">
+                <h3>returns</h3>
+                <p>
+                    Returns!! Lorem ipsum dolor sit amet consectetur, a
+                    dipisicing elit. Adipisci cumque minima repellendus 
+                    velit! Cupiditate, repellendus voluptates. Earum rem omnis tenetur. 
+                    Nesciunt autem odio dolor ut!
+                </p>
+            </div>
+        </div>
+        <div>
+            <button class="snackbar-trigger">click me</button>
+        </div>  
+    </div>
+</body>
+</html>
